@@ -2,11 +2,11 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
+    name: 'Vivabyte IT Solutions',
+    description: 'The official place for our Kasm Workspaces.',
     icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
-    contactUrl: 'https://kasmweb.com/support',
+    listUrl: 'https://vivabyteitsolutions.github.io/kasm-registry/',
+    contactUrl: 'https://github.com/vivabyteitsolutions/kasm-registry/issues',
   },
   reactStrictMode: true,
   swcMinify: true,
