@@ -4,7 +4,7 @@ const nextConfig = {
   env: {
     name: 'Vivabyte IT Solutions',
     description: 'The official place for our Kasm Workspaces.',
-    icon: '/img/logo.svg',
+    icon: 'https://vivabyteitsolutions.github.io/kasm-registry/1.0/icon.png',
     listUrl: 'https://vivabyteitsolutions.github.io/kasm-registry/',
     contactUrl: 'https://github.com/vivabyteitsolutions/kasm-registry/issues',
   },
