@@ -1,30 +1,21 @@
 {
-  "description": "Chromium is a free and open-source browser, primarily developed and maintained by Google.",
-  "docker_registry": "https://index.docker.io/v1/",
-  "image_src": "chromium.png",
-  "name": "kasmweb/chromium:develop",
+  "description": "This is our Development Workspace used for all our Team members",
+  "docker_registry": "registry.gitlab.com/whyauthentic/kasm-dev-workspace/",
+  "image_src": "ubuntu-dev.png",
+  "name": "dev-workspace:latest",
   "run_config": {
     "hostname": "kasm"
   },
-  "exec_config": {
-    "go": {
-      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
-    },
-    "assign": {
-      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
-    }
-  },
   "categories": [
-    "Browser"
+    "Desktop"
   ],
-  "friendly_name": "Chromium",
+  "friendly_name": "Ubuntu Developer Workspace",
   "architecture": [
     "amd64",
     "arm64"
   ],
   "compatibility": [
-    "1.13.x",
-    "1.14.x"
+    "1.16.x"
   ],
   "uncompressed_size_mb": 2170
 }
